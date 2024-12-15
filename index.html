@@ -3,9 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<title>Dictionary</title>
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-                                   
+    <div class="container">
+    <h1>Translator</h1>
+    <textarea id="fromText" placeholder="Enter text to translate..."></textarea>
+    <select id="fromLang">
+          <option value="en">English</option>
+          <option value="fa">Persian (Farsi)</option>
+          <option value="de">German</option>
+    </select>
+    <select id="toLang">
+          <option value="fa">Persian (Farsi)</option>
+          <option value="en">English</option>
+          <option value="de">German</option>
+    </select>
+    <button id="translateBtn">Translate</button>
+    <textarea id="toText" placeholder="Translation..."></textarea>
+ </div>
+ <script src="./Javascript/script.js"></script>                               
 </body>
 </html>
